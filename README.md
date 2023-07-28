@@ -1,6 +1,7 @@
 # Simplified_TTT
 
 This TIC_TAC_TOE game is made on LogiSim Software.
+
 You can install Logisim from https://sourceforge.net/projects/circuit/ (latest version is recommended)
 
 Preview:
@@ -10,5 +11,6 @@ To understand the implementation, refer the FSM_States
 
 A player wins the game when successfully placing three similar (01-Xs) or (10-Os) values in the following row pairs: (1,2,3); (4,5,6);(7,8,9); (1,4,7); (2,5,8);(3,6,9); (1,5,9);(3,5,7).
 The winner detecting circuit is designed to find the winner when the above winning rule is matched. 
+
 To detect an illegal move, a comparator is needed to check if the current position was already played by either the computer or player. 
 Moreover, “No space” detector is to check if all the positions are played and no winner is found.
