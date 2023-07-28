@@ -9,6 +9,13 @@ Preview:
 
 To understand the implementation, refer the FSM_States 
 
+State 0 - Idle
+State 1 - P1
+State 2 - P2
+State 3 - Game Over
+
+
+
 A player wins the game when successfully placing three similar (01-Xs) or (10-Os) values in the following row pairs: (1,2,3); (4,5,6);(7,8,9); (1,4,7); (2,5,8);(3,6,9); (1,5,9);(3,5,7).
 The winner detecting circuit is designed to find the winner when the above winning rule is matched. 
 
